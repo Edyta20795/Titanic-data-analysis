@@ -1,9 +1,10 @@
+#dodawanie bibliteki pandas
 import pandas as pd
 
 # Wczytanie danych
 df = pd.read_csv("titanic.csv")
 
-# Podstawowe informacje o danych
+# Basic data information
 print("Podstawowe info:")
 print(df.info())
 
